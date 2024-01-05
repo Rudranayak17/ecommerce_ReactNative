@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Mavy",
+    "slug": "Mavy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/appstore.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/logomavy_1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/appstore.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.rudra_nayak.Mavy"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cdb9f960-0945-46b9-bda8-8e43e9348315"
+      }
+    }
+  }
+}
